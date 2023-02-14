@@ -9,7 +9,7 @@ Lista Numeradas
 
 
 Un ejemplo:
-
+```html
     <!-- Listas numeradas -->
     <h3>Lista Numerada - Ordered List (ol)</h3>
     <ol>
@@ -18,13 +18,14 @@ Un ejemplo:
         <li>Tercer Elemento</li>
         <li>Cuarto elemento</li>
     </ol>
+```
 ol sería la etiqueta padre y cada uno de los elemento de la lista iría en una etiqueta li.
 
 Listas no Numeradas
 
 
 Un ejemplo:
-
+```html
     <!-- Listas no numeradas-->
     <h3>Lista NO Numerada - Unordered List (ul)</h3>
     <ul>
@@ -33,13 +34,14 @@ Un ejemplo:
         <li>Tercer Elemento</li>
         <li>Cuarto elemento</li>
     </ul>
+    ```
 ul sería la etiqueta padre y cada uno de los elemento de la lista iría en una etiqueta li.
 
 Listas de definición
 
 
 Un ejemplo:
-
+```html
     <!-- Listas de definición-->
     <h3> Lista de descripción - Description List (dl)</h3>
     <dl>
@@ -52,4 +54,5 @@ Un ejemplo:
         <dt>Cuarto término</dt>
         <dd>Definición del cuarto término</dd>
     </dl>
+    ```html
 dl sería la etiqueta padre y cada término se define mostrando consecutivamente las etiquetas dt, que se corresponde con el término que vamos a definir, y dd que es la definición del término anterior.
