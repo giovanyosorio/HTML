@@ -359,6 +359,8 @@ Y muchos más….
 ## Formulario
 
 ![image](https://user-images.githubusercontent.com/30839218/219141761-db9f36c8-1ea5-49f9-b7b2-1b98a51cc729.png)
+    
+![]([https://pandao.github.io/editor.md/examples/images/4.jpg](https://user-images.githubusercontent.com/30839218/219141761-db9f36c8-1ea5-49f9-b7b2-1b98a51cc729.png))
 
 Muchos de ellos son nuevos en HTML5 por lo que es importante comprobar cómo se ven en los distintos navegadores o comprobarlo de manera previa usando la página HTML5 Test.
 
