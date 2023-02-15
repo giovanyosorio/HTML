@@ -352,3 +352,56 @@ value el valor que tiene el elemento..
 tabindex para asegurarnos que podemos navegar por los elementos usando el tabulador podemos establecer un orden para cada uno.
 multiple para seleccionar varias opciones en una lista desplegable.
 Y muchos más….
+
+
+
+
+## Formulario
+
+![image](https://user-images.githubusercontent.com/30839218/219141761-db9f36c8-1ea5-49f9-b7b2-1b98a51cc729.png)
+
+Muchos de ellos son nuevos en HTML5 por lo que es importante comprobar cómo se ven en los distintos navegadores o comprobarlo de manera previa usando la página HTML5 Test.
+
+Tienen especial relevancia los siguientes:
+
+Radio Groups
+Checkboxes
+Datalist
+Radio Group
+Es una agrupación de inputs que presenta opciones que queremos que sean excluyentes:
+
+Un ejemplo sería:
+
+<label for="genero">Sexo</label>
+<input type="radio" name="genero" value="masculino" />Hombre<br />
+<input type="radio" name="genero" value="fememino" checked />Mujer<br />
+Para que sean excluyentes deben de tener el mismo valor para el atributo name y el type=”radio”
+
+CheckBoxes
+Es una agrupación de opciones que presenta opciones de las cuáles podemos elegir una o varias.
+
+Un ejemplo sería:
+
+    <label for="dispositivos">Dispositivos electrónicos</label><br />
+    <input type="checkbox" name="dispositivos" value="pc" />PC<br />
+    <input type="checkbox" name="dispositivos" value="table" />Tableta<br />
+    <input type="checkbox" name="dispositivos" value="movil" />Móvil
+Fijaros que para agruparlos deben de tener el mismo valor para name y el type=”checkbox”
+
+Data Lista
+Es una nueva forma en HTML5 de hacer una lista de valores posibles para un input.
+
+Un ejemplo sería:
+
+    <input list="editor">
+
+    <datalist id="editor">
+        <option value="Atom">
+        <option value="NotePad++">
+        <option value="VsCode">
+        <option value="Sublime">
+        <option value="Brackets">
+    </datalist>
+Con el atributo list indicamos la lista de opciones que vamos a tener y en la etiqueta metemos las que queramos.
+
+Es importante destacar que podríamos meter otras opciones en el Input pero al usar esta estructura se nos ayuda a rellenarlo y a elegir la opción correcta.
