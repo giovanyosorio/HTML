@@ -351,4 +351,4 @@ selected indica la opción seleccionada.
 value el valor que tiene el elemento..
 tabindex para asegurarnos que podemos navegar por los elementos usando el tabulador podemos establecer un orden para cada uno.
 multiple para seleccionar varias opciones en una lista desplegable.
-Y muchos más…
+Y muchos más….
